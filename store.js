@@ -1,3 +1,4 @@
+import store from "./store.js";
 // Intialises initial count
 const initialcount = 0;
 const tallyReducer = (state = initialcount, action) => {
@@ -13,7 +14,7 @@ const tallyReducer = (state = initialcount, action) => {
   }
 };
 // Create the Redux store
- const store = Redux.createStore(tallyReducer);
- 
- // Export the store to be used in other files
- export default store;
+const store = Redux.createStore(tallyReducer);
+
+// Export the store to be used in other files
+export default store;
