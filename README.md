@@ -11,7 +11,7 @@ To run this project, follow these steps:
 ### Clone the Repository
 
 ```
-git clone 
+git clone https://github.com/KentseMatshira/CS20240252_PTO2407_GroupA_Kentse-Matshira_DJS05
 ```
 
 ### Open the Project
