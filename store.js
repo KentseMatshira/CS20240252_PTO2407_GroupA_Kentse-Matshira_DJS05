@@ -1,4 +1,3 @@
-import store from "./store.js";
 // Intialises initial count
 const initialcount = 0;
 const tallyReducer = (state = initialcount, action) => {
